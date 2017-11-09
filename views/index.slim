@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title Hello Robot!
+
+  body
+  <div align="center">
+    img src="#{ RobohashClient.get_url(params['name'], {size: :medium, set: :any}) }"
+    h1 Hello #{params['name'].capitalize}!
+  </div>
