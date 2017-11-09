@@ -8,4 +8,4 @@ Simple page to test my gem robohash_client.
 $ bundle && ruby index.rb
 ```
 
-[Open!](localhost:4567)
+Open localhost:4567
